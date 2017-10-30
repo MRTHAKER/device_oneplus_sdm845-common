@@ -73,6 +73,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-hotword.xml:system/etc/permissions/privapp-permissions-hotword.xml
 
+# Priv-app
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.manager@1.0-java \
@@ -133,4 +137,4 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # VNDK
 PRODUCT_PACKAGES += \
-    vndk_package
+   vndk_package
